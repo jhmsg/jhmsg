@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+	<html lang="zh-Hans">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>登录 &lsaquo; 菁華茗書閣</title>
+	<meta name='robots' content='max-image-preview:large, noindex, noarchive' />
+<link rel='stylesheet' href='wp-admin/load-styles.php%EF%B9%96c=0&amp;dir=ltr&amp;load%5Bchunk_0%5D=dashicons,buttons,forms,l10n,login&amp;ver=6.8.2.css' type="text/css" media='all' />
+<style>body.login { background-image: url(https://cn.bing.com/th?id=OHR.IceOtters_ZH-CN5393791969_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp); background-repeat: no-repeat; background-position: center center; background-size: cover; background-attachment: fixed; overflow: hidden; width: 100%; }.login h1 a { background-image: url(wp-content/themes/jhmsg/static/images/favicon.ico); }
+            *, *::before, *::after { box-sizing: border-box; }
+            #login { width: 300px; }
+            .login #login_error, .login .message, .login .success, .login form { border-radius: 5px; background: rgba(255, 255, 255, .5); box-shadow: none; backdrop-filter: blur(5px); }
+            .login form { border: none; }
+            .login form .input, .login input[type=password], .login input[type=text] { min-height: 32px; height: 32px;
+                font-size: 14px; padding: 2px 10px; line-height: 1; border: 1px solid #999; border-radius: 5px; box-shadow: unset; }
+            .login .button.wp-hide-pw .dashicons { top: 0; }
+            .login #backtoblog, .login #nav { margin: 20px auto 0; padding: 5px 10px; line-height: 1.8; text-align: center; border-radius: 5px; background: rgba(255, 255, 255, .5); backdrop-filter: blur(5px); }
+            .login #nav { float: left; }
+            #backtoblog { float: right; }
+        
+        .captcha-label { position: relative; }
+        .label-icon { display: none; }
+        .captcha-image { position: absolute; top: 1px; right: 1px; border-left: 1px solid #999; border-radius: 0 5px 5px 0; }
+    </style>	<meta name='referrer' content='strict-origin-when-cross-origin' />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		</head>
+	<body class="login no-js login-action-login wp-core-ui  locale-zh-cn">
+	<script type="text/javascript">
+/* <![CDATA[ */
+document.body.className = document.body.className.replace('no-js','js');
+/* ]]> */
+</script>
+
+				<h1 class="screen-reader-text">登录</h1>
+			<div id="login">
+		<h1 role="presentation" class="wp-login-logo"><a href="index.html">菁華茗書閣</a></h1>
+	
+		<form name="loginform" id="loginform" action="jhmsg-login.html" method="post">
+			<p>
+				<label for="user_login">用户名或邮箱地址</label>
+				<input type="text" name="log" id="user_login" class="input" value="" size="20" autocapitalize="off" autocomplete="username" required="required" />
+			</p>
+
+			<div class="user-pass-wrap">
+				<label for="user_pass">密码</label>
+				<div class="wp-pwd">
+					<input type="password" name="pwd" id="user_pass" class="input password-input" value="" size="20" autocomplete="current-password" spellcheck="false" required="required" />
+					<button type="button" class="button button-secondary wp-hide-pw hide-if-no-js" data-toggle="0" aria-label="显示密码">
+						<span class="dashicons dashicons-visibility" aria-hidden="true"></span>
+					</button>
+				</div>
+			</div>
+						<p class="forgetmenot"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> <label for="rememberme">记住我</label></p>
+			<p class="submit">
+				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="登录" />
+									<input type="hidden" name="redirect_to" value="https://jhmsg.cn/forum.html" />
+									<input type="hidden" name="testcookie" value="1" />
+			</p>
+		</form>
+
+					<p id="nav">
+				<a class="wp-login-lost-password" href="jhmsg-login%EF%B9%96action=lostpassword.html">忘记密码？</a>			</p>
+			<script type="text/javascript">
+/* <![CDATA[ */
+function wp_attempt_focus() {setTimeout( function() {try {d = document.getElementById( "user_login" );d.focus(); d.select();} catch( er ) {}}, 200);}
+wp_attempt_focus();
+if ( typeof wpOnload === 'function' ) { wpOnload() }
+/* ]]> */
+</script>
+		<p id="backtoblog">
+			<a href="index.html">&larr; 返回到 菁華茗書閣</a>		</p>
+			</div>
+				<div class="language-switcher">
+				<form id="language-switcher" method="get">
+
+					<label for="language-switcher-locales">
+						<span class="dashicons dashicons-translation" aria-hidden="true"></span>
+						<span class="screen-reader-text">
+							语言						</span>
+					</label>
+
+					<select name="wp_lang" id="language-switcher-locales"><option value="en_US" lang="en" data-installed="1">English (United States)</option>
+<option value="zh_CN" lang="zh" selected='selected' data-installed="1">简体中文</option>
+<option value="zh_TW" lang="zh" data-installed="1">繁體中文</option></select>
+					
+											<input type="hidden" name="redirect_to" value="https://jhmsg.cn/forum.html" />
+					
+					
+						<input type="submit" class="button" value="更改">
+
+					</form>
+				</div>
+			
+	
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _zxcvbnSettings = {"src":"https:\/\/jhmsg.cn\/wp-includes\/js\/zxcvbn.min.js"};/* ]]> */
+</script>
+<script type='text/javascript' src='wp-admin/load-scripts.php%EF%B9%96c=0&amp;load%5Bchunk_0%5D=clipboard,jquery-core,jquery-migrate,zxcvbn-async,wp-hooks&amp;ver=6.8.2.js'></script>
+<script type="text/javascript" src="wp-includes/js/dist/i18n.min%EF%B9%96ver=5e580eb46a90c2b997e6.js" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" id="password-strength-meter-js-extra">
+/* <![CDATA[ */
+var pwsL10n = {"unknown":"\u5bc6\u7801\u5f3a\u5ea6\u672a\u77e5","short":"\u975e\u5e38\u5f31","bad":"\u5f31","good":"\u4e2d\u7b49","strong":"\u5f3a","mismatch":"\u4e0d\u5339\u914d"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="password-strength-meter-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2025-05-04 17:30:55+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=1; plural=0;","lang":"zh_CN"},"%1$s is deprecated since version %2$s! Use %3$s instead. Please consider writing more inclusive code.":["\u81ea %2$s \u7248\u5f00\u59cb\uff0c%1$s \u5df2\u7ecf\u6dd8\u6c70\uff0c\u8bf7\u6539\u7528 %3$s\u3002\u8bf7\u8003\u8651\u64b0\u5199\u66f4\u5177\u517c\u5bb9\u6027\u7684\u4ee3\u7801\u3002"]}},"comment":{"reference":"wp-admin\/js\/password-strength-meter.js"}} );
+/* ]]> */
+</script>
+<script type="text/javascript" src="wp-admin/js/password-strength-meter.min%EF%B9%96ver=6.8.2.js" id="password-strength-meter-js"></script>
+<script type="text/javascript" src="wp-includes/js/underscore.min%EF%B9%96ver=1.13.7.js" id="underscore-js"></script>
+<script type="text/javascript" id="wp-util-js-extra">
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="wp-includes/js/wp-util.min%EF%B9%96ver=6.8.2.js" id="wp-util-js"></script>
+<script type="text/javascript" src="wp-includes/js/dist/dom-ready.min%EF%B9%96ver=f77871ff7694fffea381.js" id="wp-dom-ready-js"></script>
+<script type="text/javascript" id="wp-a11y-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2025-07-29 06:55:14+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=1; plural=0;","lang":"zh_CN"},"Notifications":["\u901a\u77e5"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+/* ]]> */
+</script>
+<script type="text/javascript" src="wp-includes/js/dist/a11y.min%EF%B9%96ver=3156534cc54473497e14.js" id="wp-a11y-js"></script>
+<script type="text/javascript" id="user-profile-js-extra">
+/* <![CDATA[ */
+var userProfileL10n = {"user_id":"0","nonce":"67c03f4fe8"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="user-profile-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2025-05-04 17:30:55+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=1; plural=0;","lang":"zh_CN"},"Application password has been copied to your clipboard.":["\u5e94\u7528\u7a0b\u5e8f\u5bc6\u7801\u5df2\u590d\u5236\u5230\u526a\u8d34\u677f\u3002"],"Your new password has not been saved.":["\u60a8\u7684\u65b0\u5bc6\u7801\u672a\u88ab\u4fdd\u5b58\u3002"],"Hide":["\u9690\u85cf"],"Confirm use of weak password":["\u786e\u8ba4\u4f7f\u7528\u5f31\u5bc6\u7801"],"Hide password":["\u9690\u85cf\u5bc6\u7801"],"Show password":["\u663e\u793a\u5bc6\u7801"],"Show":["\u663e\u793a"],"The changes you made will be lost if you navigate away from this page.":["\u79bb\u5f00\u8fd9\u4e2a\u9875\u9762\uff0c\u60a8\u6240\u505a\u7684\u66f4\u6539\u5c06\u4e22\u5931\u3002"]}},"comment":{"reference":"wp-admin\/js\/user-profile.js"}} );
+/* ]]> */
+</script>
+<script type="text/javascript" src="wp-admin/js/user-profile.min%EF%B9%96ver=6.8.2.js" id="user-profile-js"></script>
+        <script data-cfasync="false">
+          var dFlipLocation = 'https://jhmsg.cn/wp-content/plugins/3d-flipbook-dflip-lite/assets/';
+          var dFlipWPGlobal = {"text":{"toggleSound":"Turn on\/off Sound","toggleThumbnails":"Toggle Thumbnails","toggleOutline":"Toggle Outline\/Bookmark","previousPage":"Previous Page","nextPage":"Next Page","toggleFullscreen":"Toggle Fullscreen","zoomIn":"Zoom In","zoomOut":"Zoom Out","toggleHelp":"Toggle Help","singlePageMode":"Single Page Mode","doublePageMode":"Double Page Mode","downloadPDFFile":"Download PDF File","gotoFirstPage":"Goto First Page","gotoLastPage":"Goto Last Page","share":"Share","mailSubject":"I wanted you to see this FlipBook","mailBody":"Check out this site {{url}}","loading":"DearFlip: Loading "},"viewerType":"flipbook","moreControls":"download,pageMode,startPage,endPage,sound","hideControls":"","scrollWheel":"false","backgroundColor":"#777","backgroundImage":"","height":"auto","paddingLeft":"20","paddingRight":"20","controlsPosition":"bottom","duration":800,"soundEnable":"true","enableDownload":"true","showSearchControl":"false","showPrintControl":"false","enableAnnotation":false,"enableAnalytics":"false","webgl":"true","hard":"none","maxTextureSize":"1600","rangeChunkSize":"524288","zoomRatio":1.5,"stiffness":3,"pageMode":"0","singlePageMode":"0","pageSize":"0","autoPlay":"false","autoPlayDuration":5000,"autoPlayStart":"false","linkTarget":"2","sharePrefix":"flipbook-"};
+        </script>
+      	</body>
+	</html>
+	
